@@ -1,1 +1,8 @@
+# Pixiv
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-KEYWORD,pixiv
+
+# priconne
 DOMAIN-KEYWORD,priconne-redive
+DOMAIN-SUFFIX,priconne-redive.jp
