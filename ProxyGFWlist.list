@@ -3691,7 +3691,6 @@ DOMAIN-SUFFIX,piposay.com
 DOMAIN-SUFFIX,piraattilahti.org
 DOMAIN-SUFFIX,piring.com
 DOMAIN-SUFFIX,pixelqi.com
-DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixnet.in
 DOMAIN-SUFFIX,pixnet.net
 DOMAIN-SUFFIX,pk.com
@@ -5760,10 +5759,6 @@ DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,ypncdn.com
-
-# Pixiv
-DOMAIN-SUFFIX,pixiv.net
-DOMAIN-SUFFIX,pximg.net
 
 # Spark
 DOMAIN-SUFFIX,amplitude.com
