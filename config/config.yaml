@@ -236,6 +236,12 @@ rule-providers:
   dmm: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/dmm.list"}
   exhentai: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/exhentai.list"}
   cygames: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/cygames.list"}
+  Direct: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/Direct.list"}
+  LocalAreaNetwork: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"}
+  UnBan: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"}
+  ChinaDomain: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"}
+  ChinaCompanyIp: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"}
+
   Epic: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"}
   Origin: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"}
   Sony: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"}
