@@ -2,7 +2,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "机场订阅"
+    url: "订阅地址"
     type: http
     interval: 604800
     health-check:
@@ -192,6 +192,11 @@ proxy-groups:
 rules:
   - DOMAIN-SUFFIX,github.com/xiaojunsp,🚀 节点选择
   - RULE-SET,private_domain,直连
+  - RULE-SET,Direct,直连
+  - RULE-SET,LocalAreaNetwork,直连
+  - RULE-SET,UnBan,直连
+  - RULE-SET,ChinaDomain,直连
+  - RULE-SET,ChinaCompanyIp,直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,Epic,🎮 游戏平台
   - RULE-SET,Origin,🎮 游戏平台
