@@ -2,7 +2,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://bayoeorescentpossessicoanseparateuneforescenphacommitte.adoptangelaboradvacotionclwonthorughconfrmcompimentdeseertaltar.org/link/vRmMAVh4BWu9bXQS?clash=1"
+    url: "机场订阅"
     type: http
     interval: 604800
     health-check:
@@ -193,6 +193,19 @@ rules:
   - DOMAIN-SUFFIX,github.com/xiaojunsp,🚀 节点选择
   - RULE-SET,private_domain,直连
   - RULE-SET,apple_domain,🍎 Apple
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,Origin,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,Nintendo,🎮 游戏平台
+  - RULE-SET,hk,🇨🇳🇭🇰 香港节点
+  - RULE-SET,japan,🇯🇵 日本节点
+  - RULE-SET,dmm,🇯🇵 日本节点
+  - RULE-SET,exhentai,🐍 EX绅士
+  - RULE-SET,cygames,🐲 Cygames
+  - RULE-SET,bilibili,📺 哔哩哔哩
+  - RULE-SET,BilibiliHMT,📺 哔哩哔哩
+  - RULE-SET,bahamut,📺 巴哈姆特
   - RULE-SET,proxylite,🚀 节点选择
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,youtube_domain,📹 YouTube
@@ -203,13 +216,6 @@ rules:
   - RULE-SET,telegram_domain,📲 Telegram
   - RULE-SET,netflix_domain,🎥 NETFLIX
   - RULE-SET,paypal_domain,💶 PayPal
-  - RULE-SET,game,🎮 游戏平台
-  - RULE-SET,hk,🇨🇳🇭🇰 香港节点
-  - RULE-SET,japan,🇯🇵 日本节点
-  - RULE-SET,exhentai,🐍 EX绅士
-  - RULE-SET,cygames,🐲 Cygames
-  - RULE-SET,bilibili,📺 哔哩哔哩
-  - RULE-SET,bahamut,📺 巴哈姆特
   - RULE-SET,gfw_domain,🚀 节点选择
   - RULE-SET,geolocation-!cn,🚀 节点选择
   - RULE-SET,cn_domain,🎯 直连
@@ -226,13 +232,18 @@ rule-anchor:
   class: &class {type: http, interval: 604800, behavior: classical, format: text}
 rule-providers: 
   hk: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/hk.list"}
-  japan: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/japan.list", "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/dmm.list"}
+  japan: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/japan.list"}
+  dmm: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/dmm.list"}
   exhentai: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/exhentai.list"}
   cygames: { <<: *class, url: "https://raw.githubusercontent.com/xiaojunsp/clash/main/rules/cygames.list"}
-  game: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list", "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list", "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list", "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list", "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"}
-  bilibili: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list", "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"}
+  Epic: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"}
+  Origin: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"}
+  Sony: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"}
+  Steam: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"}
+  Nintendo: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"}
+  bilibili: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"}
+  BilibiliHMT: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"}
   bahamut: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"}
-
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"}  
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
