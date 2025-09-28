@@ -1,0 +1,24 @@
+# 阻止抖音及其相关域名
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,toutiao.com
+
+# 阻止小红书及其相关域名
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhspl.com
+
+# 阻止拼多多及其相关域名
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,pddpop.com
