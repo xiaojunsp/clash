@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,hao123.com
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,girigirilove
 DOMAIN-KEYWORD,windoent
+DOMAIN-KEYWORD,cardarena
 
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
